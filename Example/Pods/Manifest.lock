@@ -1,0 +1,27 @@
+PODS:
+  - ClosureReactor (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ClosureReactor (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ClosureReactor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ClosureReactor: 8aa69fade5928ad895a19e9f50ac00b1212507ba
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 88922d6143f7f51a4ec2879ced574dc01f5dbdde
+
+COCOAPODS: 1.11.2

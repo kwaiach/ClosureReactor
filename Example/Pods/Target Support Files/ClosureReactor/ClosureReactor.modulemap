@@ -1,0 +1,6 @@
+framework module ClosureReactor {
+  umbrella header "ClosureReactor-umbrella.h"
+
+  export *
+  module * { export * }
+}

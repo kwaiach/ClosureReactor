@@ -15,26 +15,26 @@ enum AssociatedKey {
 }
 
 public protocol AssociatedObjectStore {
-    func getAssociatedObject<T>(forKey key: UnsafeRawPointer) -> T?
-    func getAssociatedObject<T>(forKey key: UnsafeRawPointer, default: T) -> T
-    func setAssociatedObject<T>(_ object: T?, forKey key: UnsafeRawPointer)
+  func getAssociatedObject<T>(forKey key: UnsafeRawPointer) -> T?
+  func getAssociatedObject<T>(forKey key: UnsafeRawPointer, default: T) -> T
+  func setAssociatedObject<T>(_ object: T?, forKey key: UnsafeRawPointer)
 }
 
 extension AssociatedObjectStore {
-    func getAssociatedObject<T>(forKey key: UnsafeRawPointer) -> T? {
-        return objc_getAssociatedObject(self, key) as? T
+  public func getAssociatedObject<T>(forKey key: UnsafeRawPointer) -> T? {
+    return objc_getAssociatedObject(self, key) as? T
+  }
+  
+  public func getAssociatedObject<T>(forKey key: UnsafeRawPointer, default: T) -> T {
+    if let object = objc_getAssociatedObject(self, key) as? T {
+      return object
     }
-    
-    func getAssociatedObject<T>(forKey key: UnsafeRawPointer, default: T) -> T {
-        if let object = objc_getAssociatedObject(self, key) as? T {
-            return object
-        }
-        let object = `default`
-        setAssociatedObject(object, forKey: key)
-        return object
-    }
-    
-    func setAssociatedObject<T>(_ object: T?, forKey key: UnsafeRawPointer) {
-        objc_setAssociatedObject(self, key, object, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-    }
+    let object = `default`
+    setAssociatedObject(object, forKey: key)
+    return object
+  }
+  
+  public func setAssociatedObject<T>(_ object: T?, forKey key: UnsafeRawPointer) {
+    objc_setAssociatedObject(self, key, object, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+  }
 }

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D229236A92E58F0B57C4F04E0CFE9AD /* ClosureReactor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD263A5666CA0584123B47132981FB0 /* ClosureReactor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		111DC4FBEFFC7908E2D2229A20CC38F4 /* Pods-ClosureReactor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9310712A07EA9DCFB19D2A521C47053F /* Pods-ClosureReactor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16561954C2EB618EF3246FE59E226CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		16A487E2A5536B16517CF38218C8DAF1 /* Mutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA54FEA1D6B1C6B3A337D289D3F4876 /* Mutable.swift */; };
 		1CC430B8BC096EC17E9B17D4F517A99C /* Pods-ClosureReactor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B67926314B68BC3C98CDCBAD912ED /* Pods-ClosureReactor_Tests-dummy.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
@@ -16,54 +17,53 @@
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		325C142FDBAC1F29570C63F05E4DC45C /* ClosureReactor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18626C9937C10009DE96904D85D67D /* ClosureReactor-dummy.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		423FEBC426B07FBC529DA3B192074A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		54C0C004CD3C5ACC8EB2C88B904D0A6D /* ClosureReactiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664ED332B3CDC587B2AE2D00019335C /* ClosureReactiveType.swift */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		71CB27F627B63E3B0088D48D /* Mutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB27F227B63E3B0088D48D /* Mutable.swift */; };
-		71CB27F727B63E3B0088D48D /* AssociatedObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB27F327B63E3B0088D48D /* AssociatedObjectStore.swift */; };
-		71CB27F827B63E3B0088D48D /* APReactiveViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB27F427B63E3B0088D48D /* APReactiveViewType.swift */; };
-		71CB27F927B63E3B0088D48D /* APReactiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB27F527B63E3B0088D48D /* APReactiveType.swift */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		855FC3F7157E72AA2761B105F923B902 /* ClosureReactiveViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B4BC511ED9F2DFC5B6409F6C7AFA12 /* ClosureReactiveViewType.swift */; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		AB206D4582C86558262D6EC34F51DA55 /* ClosureReactor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B884AE81585FAED1ADDE9180D02941 /* ClosureReactor-dummy.m */; };
+		A6F31E288CD3D34642A0056C0663BE57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		AC7C9C22FC7F635D7FE2DF0687029A8A /* AssociatedObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D879F2F9B013D47239868C94C64535 /* AssociatedObjectStore.swift */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		BF3C47E16A9B03301915A1A057039C51 /* Pods-ClosureReactor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C771A7321A932B57A1FAE82380269F /* Pods-ClosureReactor_Example-dummy.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		E63F8C69330D997202A317F25B7FF8D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		EBAEF25BF541650CB01A6593D7E93CD0 /* ClosureReactor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D65863559D8FEE7572AEA9112FE91D41 /* ClosureReactor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED70F20A0F8266B093270488F27EFE91 /* Pods-ClosureReactor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8FA011C46630A6C6D7623B687FCC4E /* Pods-ClosureReactor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A73A1DF81EB9E8BA5B9BE94FDC24672 /* PBXContainerItemProxy */ = {
+		0D8B5D92EE2A4B6863386FDD2C158AD8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0F595BD8FC2D98DBA4C584E006A3DE0C;
-			remoteInfo = ClosureReactor;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
 		};
-		79C20AB7CFAD0B7AAAA57E52E3937CF5 /* PBXContainerItemProxy */ = {
+		6DDBFAEEDABB1F8A7B401E02B6063E25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 46114EE44824746E0991909CDA19ECF6;
 			remoteInfo = "Pods-ClosureReactor_Example";
 		};
-		EE14842E276CD3C184049EF34A2F3361 /* PBXContainerItemProxy */ = {
+		85D99A7832CAED37EC5D316B68F26C7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
+			remoteGlobalIDString = 0F595BD8FC2D98DBA4C584E006A3DE0C;
+			remoteInfo = ClosureReactor;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,38 +73,38 @@
 		0E28DF5F86DC7B4E48028FD66C40953F /* Pods-ClosureReactor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ClosureReactor_Tests"; path = Pods_ClosureReactor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE69DCAC45B55B54D81D4B23C99F7A7 /* Pods-ClosureReactor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClosureReactor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		18453CBE7F12109D6183D3B8BE9EDB46 /* ClosureReactor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClosureReactor.release.xcconfig; sourceTree = "<group>"; };
 		190214CDE74F4759036AFF95F028B3BE /* Pods-ClosureReactor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClosureReactor_Tests.modulemap"; sourceTree = "<group>"; };
+		19DD57037D70033D4567895AA4129929 /* ClosureReactor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClosureReactor-Info.plist"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		22F3398706DE953B17AFFB8C62B3D446 /* Pods-ClosureReactor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClosureReactor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		23B88CDAA0327D2DC004475CAFF972ED /* Pods-ClosureReactor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClosureReactor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		249399D4ED6283BD762797CBF905C441 /* Pods-ClosureReactor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClosureReactor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2664ED332B3CDC587B2AE2D00019335C /* ClosureReactiveType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClosureReactiveType.swift; path = ClosureReactor/Classes/ClosureReactiveType.swift; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		2800B25F1FC29E3632789CC3E29EBAB4 /* ClosureReactor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClosureReactor.modulemap; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		3082F8C4F541DF006DF5FA22C0B52081 /* ClosureReactor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClosureReactor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3082F8C4F541DF006DF5FA22C0B52081 /* ClosureReactor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClosureReactor; path = ClosureReactor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		37D2739C65719D44047B775A8C7627B8 /* ClosureReactor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClosureReactor-prefix.pch"; sourceTree = "<group>"; };
 		3B1B67926314B68BC3C98CDCBAD912ED /* Pods-ClosureReactor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClosureReactor_Tests-dummy.m"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4BD263A5666CA0584123B47132981FB0 /* ClosureReactor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClosureReactor-umbrella.h"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4E2ADB9BE3CD5EDE35BF6D27F9A5BC2E /* Pods-ClosureReactor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ClosureReactor_Example"; path = Pods_ClosureReactor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		557D4BA58535C20654D0495883C7D75A /* ClosureReactor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClosureReactor-Info.plist"; sourceTree = "<group>"; };
+		53E7123BEA9CF5AD31345247DBBF1F01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5614E7398F6938F5E1E279A63734FA0E /* ClosureReactor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClosureReactor.debug.xcconfig; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63B884AE81585FAED1ADDE9180D02941 /* ClosureReactor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClosureReactor-dummy.m"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		71CB27F227B63E3B0088D48D /* Mutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutable.swift; sourceTree = "<group>"; };
-		71CB27F327B63E3B0088D48D /* AssociatedObjectStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObjectStore.swift; sourceTree = "<group>"; };
-		71CB27F427B63E3B0088D48D /* APReactiveViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APReactiveViewType.swift; path = ClosureReactor/Classes/APReactiveViewType.swift; sourceTree = "<group>"; };
-		71CB27F527B63E3B0088D48D /* APReactiveType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APReactiveType.swift; path = ClosureReactor/Classes/APReactiveType.swift; sourceTree = "<group>"; };
 		7246A0A01C724D2491813A6AB9E94B59 /* Pods-ClosureReactor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClosureReactor_Example-Info.plist"; sourceTree = "<group>"; };
-		77B72502498E61CB0C986E4C13889FB7 /* ClosureReactor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClosureReactor.debug.xcconfig; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		805C88403E6CFFD4B4D173B7914D37FE /* Pods-ClosureReactor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClosureReactor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8AA54FEA1D6B1C6B3A337D289D3F4876 /* Mutable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mutable.swift; sourceTree = "<group>"; };
 		8B8FA011C46630A6C6D7623B687FCC4E /* Pods-ClosureReactor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClosureReactor_Example-umbrella.h"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9310712A07EA9DCFB19D2A521C47053F /* Pods-ClosureReactor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClosureReactor_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -114,19 +114,19 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1686A7D279FF0F38891C3E71CF1EF81 /* Pods-ClosureReactor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClosureReactor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B3DD580D459D32E89FDE00E6B6643090 /* ClosureReactor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClosureReactor.release.xcconfig; sourceTree = "<group>"; };
-		B6CEE3892F0639BA192804BF9238C699 /* ClosureReactor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ClosureReactor.modulemap; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		C097BDDB67141A7C0D14327450905CC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C15C2EBDF7A467FD720949D4F5B5BAB5 /* Pods-ClosureReactor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClosureReactor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8F4D3C255E34A1F41718D2D1694C2F4 /* ClosureReactor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClosureReactor-prefix.pch"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CD75FBCCC250D9F7BA7C433EDBFED6B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CF18626C9937C10009DE96904D85D67D /* ClosureReactor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClosureReactor-dummy.m"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D0D879F2F9B013D47239868C94C64535 /* AssociatedObjectStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociatedObjectStore.swift; sourceTree = "<group>"; };
 		D5C771A7321A932B57A1FAE82380269F /* Pods-ClosureReactor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClosureReactor_Example-dummy.m"; sourceTree = "<group>"; };
-		D65863559D8FEE7572AEA9112FE91D41 /* ClosureReactor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClosureReactor-umbrella.h"; sourceTree = "<group>"; };
-		D65D74039EF85BB27C3DE6A71B176FF4 /* ClosureReactor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ClosureReactor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7B4BC511ED9F2DFC5B6409F6C7AFA12 /* ClosureReactiveViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClosureReactiveViewType.swift; path = ClosureReactor/Classes/ClosureReactiveViewType.swift; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E8B65A9E52CE97A4C4DF06F2E5695FAB /* ClosureReactor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ClosureReactor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F0B4247E36859A8FF7455D6CE1466C0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7154D39087DE0FAD99DC05538F65E5B /* Pods-ClosureReactor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClosureReactor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F77FA4F2D40BA5E25FCEE6D461C7ED81 /* Pods-ClosureReactor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClosureReactor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB25FDFB3F66614AC9104A5653FA73A1 /* Pods-ClosureReactor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClosureReactor_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -142,19 +142,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E19E6ED69FC7A39598C87F30E6B21E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16561954C2EB618EF3246FE59E226CB2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54E598739006406DBACBAD9984AA34D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				423FEBC426B07FBC529DA3B192074A38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918A9904672EA456FF5CFBDC87F84CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F31E288CD3D34642A0056C0663BE57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,14 +193,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		71CB27F127B63E3B0088D48D /* helper */ = {
+		5B53D6D7D95B9576136A15F9EF57AC57 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				71CB27F227B63E3B0088D48D /* Mutable.swift */,
-				71CB27F327B63E3B0088D48D /* AssociatedObjectStore.swift */,
+				E8B65A9E52CE97A4C4DF06F2E5695FAB /* ClosureReactor.podspec */,
+				53E7123BEA9CF5AD31345247DBBF1F01 /* LICENSE */,
+				F0B4247E36859A8FF7455D6CE1466C0B /* README.md */,
 			);
-			name = helper;
-			path = ClosureReactor/Classes/helper;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -209,6 +209,14 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9EEE9D0E5E0BE065C1EF6470C76A08F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C18355E2216D84503A3412C78FC46C11 /* ClosureReactor */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A74DEE7CB2583A6B3253BA69975191E2 /* Pods-ClosureReactor_Example */ = {
@@ -231,20 +239,12 @@
 		B00F95152DCB9BF79EDDE00435F69E28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3082F8C4F541DF006DF5FA22C0B52081 /* ClosureReactor.framework */,
+				3082F8C4F541DF006DF5FA22C0B52081 /* ClosureReactor */,
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
 				4E2ADB9BE3CD5EDE35BF6D27F9A5BC2E /* Pods-ClosureReactor_Example */,
 				0E28DF5F86DC7B4E48028FD66C40953F /* Pods-ClosureReactor_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B393F59FBED764AC05906A6B90707B28 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DA53B87092B67B50768EE582D1C10143 /* ClosureReactor */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B6755AC2751594709E35915346320E5F /* Pods-ClosureReactor_Tests */ = {
@@ -297,11 +297,24 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		C18355E2216D84503A3412C78FC46C11 /* ClosureReactor */ = {
+			isa = PBXGroup;
+			children = (
+				2664ED332B3CDC587B2AE2D00019335C /* ClosureReactiveType.swift */,
+				D7B4BC511ED9F2DFC5B6409F6C7AFA12 /* ClosureReactiveViewType.swift */,
+				FB7D561AE2E683FBA0682673051E9CBC /* helper */,
+				5B53D6D7D95B9576136A15F9EF57AC57 /* Pod */,
+				E9CF6E3CB0795E6FC1C2504BBEB9891E /* Support Files */,
+			);
+			name = ClosureReactor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B393F59FBED764AC05906A6B90707B28 /* Development Pods */,
+				9EEE9D0E5E0BE065C1EF6470C76A08F2 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				B00F95152DCB9BF79EDDE00435F69E28 /* Products */,
@@ -318,29 +331,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DA53B87092B67B50768EE582D1C10143 /* ClosureReactor */ = {
-			isa = PBXGroup;
-			children = (
-				71CB27F527B63E3B0088D48D /* APReactiveType.swift */,
-				71CB27F427B63E3B0088D48D /* APReactiveViewType.swift */,
-				71CB27F127B63E3B0088D48D /* helper */,
-				E02660ADF5C105101B60988E84873F60 /* Pod */,
-				F19719A87AB7E6BD9FC0947D16C46272 /* Support Files */,
-			);
-			name = ClosureReactor;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E02660ADF5C105101B60988E84873F60 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D65D74039EF85BB27C3DE6A71B176FF4 /* ClosureReactor.podspec */,
-				CD75FBCCC250D9F7BA7C433EDBFED6B7 /* LICENSE */,
-				C097BDDB67141A7C0D14327450905CC7 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,16 +339,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F19719A87AB7E6BD9FC0947D16C46272 /* Support Files */ = {
+		E9CF6E3CB0795E6FC1C2504BBEB9891E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B6CEE3892F0639BA192804BF9238C699 /* ClosureReactor.modulemap */,
-				63B884AE81585FAED1ADDE9180D02941 /* ClosureReactor-dummy.m */,
-				557D4BA58535C20654D0495883C7D75A /* ClosureReactor-Info.plist */,
-				37D2739C65719D44047B775A8C7627B8 /* ClosureReactor-prefix.pch */,
-				D65863559D8FEE7572AEA9112FE91D41 /* ClosureReactor-umbrella.h */,
-				77B72502498E61CB0C986E4C13889FB7 /* ClosureReactor.debug.xcconfig */,
-				B3DD580D459D32E89FDE00E6B6643090 /* ClosureReactor.release.xcconfig */,
+				2800B25F1FC29E3632789CC3E29EBAB4 /* ClosureReactor.modulemap */,
+				CF18626C9937C10009DE96904D85D67D /* ClosureReactor-dummy.m */,
+				19DD57037D70033D4567895AA4129929 /* ClosureReactor-Info.plist */,
+				C8F4D3C255E34A1F41718D2D1694C2F4 /* ClosureReactor-prefix.pch */,
+				4BD263A5666CA0584123B47132981FB0 /* ClosureReactor-umbrella.h */,
+				5614E7398F6938F5E1E279A63734FA0E /* ClosureReactor.debug.xcconfig */,
+				18453CBE7F12109D6183D3B8BE9EDB46 /* ClosureReactor.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ClosureReactor";
@@ -375,22 +365,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FB7D561AE2E683FBA0682673051E9CBC /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				D0D879F2F9B013D47239868C94C64535 /* AssociatedObjectStore.swift */,
+				8AA54FEA1D6B1C6B3A337D289D3F4876 /* Mutable.swift */,
+			);
+			name = helper;
+			path = ClosureReactor/Classes/helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10833A070633B7D0EE1EBBADBCAD1C2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D229236A92E58F0B57C4F04E0CFE9AD /* ClosureReactor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12E69A600B77B0757FE9D54A3463172E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED70F20A0F8266B093270488F27EFE91 /* Pods-ClosureReactor_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A614F2AA9B4E32FB8031BABF46ECB5F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBAEF25BF541650CB01A6593D7E93CD0 /* ClosureReactor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,12 +422,12 @@
 /* Begin PBXNativeTarget section */
 		0F595BD8FC2D98DBA4C584E006A3DE0C /* ClosureReactor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2030C5938B0B098D806387EBBC8A614B /* Build configuration list for PBXNativeTarget "ClosureReactor" */;
+			buildConfigurationList = 0C7287B5B3CA07C49B57FB86F992854C /* Build configuration list for PBXNativeTarget "ClosureReactor" */;
 			buildPhases = (
-				1A614F2AA9B4E32FB8031BABF46ECB5F /* Headers */,
-				24418AE538123BB591DF0C37D4ED09FD /* Sources */,
-				4E19E6ED69FC7A39598C87F30E6B21E7 /* Frameworks */,
-				5DB417EEE2258DDC43F2E68451B3D6EE /* Resources */,
+				10833A070633B7D0EE1EBBADBCAD1C2E /* Headers */,
+				0A70DD22CC863A66E6E36C72EF4426F8 /* Sources */,
+				918A9904672EA456FF5CFBDC87F84CB5 /* Frameworks */,
+				5B877094A1041A2D7C868632DBA535D9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -435,7 +435,7 @@
 			);
 			name = ClosureReactor;
 			productName = ClosureReactor;
-			productReference = 3082F8C4F541DF006DF5FA22C0B52081 /* ClosureReactor.framework */;
+			productReference = 3082F8C4F541DF006DF5FA22C0B52081 /* ClosureReactor */;
 			productType = "com.apple.product-type.framework";
 		};
 		16D6F967BDC5B35C3A9F7914BD01C86D /* Pods-ClosureReactor_Tests */ = {
@@ -450,8 +450,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				3FB7E3E157E201D4B338C2A38AF2D998 /* PBXTargetDependency */,
-				A63B430B1DE27C5AB377D04C047B0481 /* PBXTargetDependency */,
+				33DF5E43E53A2B25FE84C912D9327D5E /* PBXTargetDependency */,
+				9D3B9DC21BAED2E362F793D6AA952195 /* PBXTargetDependency */,
 			);
 			name = "Pods-ClosureReactor_Tests";
 			productName = Pods_ClosureReactor_Tests;
@@ -470,7 +470,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E7D8C18B1408AF1E7F8D0C8EF8EF0FFC /* PBXTargetDependency */,
+				50A262A0C33F711C233DC0E55DF56ED7 /* PBXTargetDependency */,
 			);
 			name = "Pods-ClosureReactor_Example";
 			productName = Pods_ClosureReactor_Example;
@@ -503,11 +503,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					0F595BD8FC2D98DBA4C584E006A3DE0C = {
-						LastSwiftMigration = 1310;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -538,7 +533,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DB417EEE2258DDC43F2E68451B3D6EE /* Resources */ = {
+		5B877094A1041A2D7C868632DBA535D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,23 +557,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A70DD22CC863A66E6E36C72EF4426F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C0C004CD3C5ACC8EB2C88B904D0A6D /* ClosureReactiveType.swift in Sources */,
+				855FC3F7157E72AA2761B105F923B902 /* ClosureReactiveViewType.swift in Sources */,
+				AC7C9C22FC7F635D7FE2DF0687029A8A /* AssociatedObjectStore.swift in Sources */,
+				325C142FDBAC1F29570C63F05E4DC45C /* ClosureReactor-dummy.m in Sources */,
+				16A487E2A5536B16517CF38218C8DAF1 /* Mutable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16DCC02B299F909E84D4DC228BB79B35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1CC430B8BC096EC17E9B17D4F517A99C /* Pods-ClosureReactor_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24418AE538123BB591DF0C37D4ED09FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71CB27F827B63E3B0088D48D /* APReactiveViewType.swift in Sources */,
-				71CB27F627B63E3B0088D48D /* Mutable.swift in Sources */,
-				71CB27F727B63E3B0088D48D /* AssociatedObjectStore.swift in Sources */,
-				AB206D4582C86558262D6EC34F51DA55 /* ClosureReactor-dummy.m in Sources */,
-				71CB27F927B63E3B0088D48D /* APReactiveType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,23 +604,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3FB7E3E157E201D4B338C2A38AF2D998 /* PBXTargetDependency */ = {
+		33DF5E43E53A2B25FE84C912D9327D5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = EE14842E276CD3C184049EF34A2F3361 /* PBXContainerItemProxy */;
+			targetProxy = 0D8B5D92EE2A4B6863386FDD2C158AD8 /* PBXContainerItemProxy */;
 		};
-		A63B430B1DE27C5AB377D04C047B0481 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ClosureReactor_Example";
-			target = 46114EE44824746E0991909CDA19ECF6 /* Pods-ClosureReactor_Example */;
-			targetProxy = 79C20AB7CFAD0B7AAAA57E52E3937CF5 /* PBXContainerItemProxy */;
-		};
-		E7D8C18B1408AF1E7F8D0C8EF8EF0FFC /* PBXTargetDependency */ = {
+		50A262A0C33F711C233DC0E55DF56ED7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ClosureReactor;
 			target = 0F595BD8FC2D98DBA4C584E006A3DE0C /* ClosureReactor */;
-			targetProxy = 3A73A1DF81EB9E8BA5B9BE94FDC24672 /* PBXContainerItemProxy */;
+			targetProxy = 85D99A7832CAED37EC5D316B68F26C7F /* PBXContainerItemProxy */;
+		};
+		9D3B9DC21BAED2E362F793D6AA952195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ClosureReactor_Example";
+			target = 46114EE44824746E0991909CDA19ECF6 /* Pods-ClosureReactor_Example */;
+			targetProxy = 6DDBFAEEDABB1F8A7B401E02B6063E25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -727,11 +722,11 @@
 			};
 			name = Debug;
 		};
-		35599A2B8C3727F9434B9DF78F0FBAF6 /* Debug */ = {
+		42225ABD326DE6BCE87D6DC0971A8AF5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77B72502498E61CB0C986E4C13889FB7 /* ClosureReactor.debug.xcconfig */;
+			baseConfigurationReference = 18453CBE7F12109D6183D3B8BE9EDB46 /* ClosureReactor.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -743,7 +738,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ClosureReactor/ClosureReactor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ClosureReactor/ClosureReactor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ClosureReactor/ClosureReactor.modulemap";
 				PRODUCT_MODULE_NAME = ClosureReactor;
@@ -751,7 +746,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53384CCF2D016EA6AF0C5228318A02B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5614E7398F6938F5E1E279A63734FA0E /* ClosureReactor.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ClosureReactor/ClosureReactor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ClosureReactor/ClosureReactor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ClosureReactor/ClosureReactor.modulemap";
+				PRODUCT_MODULE_NAME = ClosureReactor;
+				PRODUCT_NAME = ClosureReactor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -785,38 +811,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EE3764E80BA1FD881E9EED29B5F1B4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3DD580D459D32E89FDE00E6B6643090 /* ClosureReactor.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ClosureReactor/ClosureReactor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ClosureReactor/ClosureReactor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ClosureReactor/ClosureReactor.modulemap";
-				PRODUCT_MODULE_NAME = ClosureReactor;
-				PRODUCT_NAME = ClosureReactor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1015,11 +1009,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2030C5938B0B098D806387EBBC8A614B /* Build configuration list for PBXNativeTarget "ClosureReactor" */ = {
+		0C7287B5B3CA07C49B57FB86F992854C /* Build configuration list for PBXNativeTarget "ClosureReactor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35599A2B8C3727F9434B9DF78F0FBAF6 /* Debug */,
-				7EE3764E80BA1FD881E9EED29B5F1B4C /* Release */,
+				53384CCF2D016EA6AF0C5228318A02B6 /* Debug */,
+				42225ABD326DE6BCE87D6DC0971A8AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

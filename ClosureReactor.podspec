@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ClosureReactor'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'ClosureReactor is a non-reactive framework for MVVM design pattern to develop'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/kwaiach/ClosureReactor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kwaiach' => 'kwaiach@amorepacific.com' }
+  s.author           = { 'kwaiach' => 'k_waiach@naver.com' }
   s.source           = { :git => 'https://github.com/kwaiach/ClosureReactor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -1,16 +1,16 @@
 //
-//  APReactiveType.swift
-//  APMallSwift
+//  ClosureReactiveType.swift
+//  ClosureReactor
 //
-//  Created by amore_kwaiach on 2022/01/11.
-//  Copyright © 2022 amorepacific.com. All rights reserved.
+//  Created by kwaiach on 2022/01/11.
+//  Copyright © 2022 kwaiach. All rights reserved.
 //
 
 import Foundation
 
 typealias NoAction = Never
 
-protocol APReactiveType: AssociatedObjectStore {
+public protocol ClosureReactiveType: AssociatedObjectStore {
   associatedtype Action
   associatedtype Renderer
   associatedtype Storage: Mutable

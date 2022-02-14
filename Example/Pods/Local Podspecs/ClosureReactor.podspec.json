@@ -1,8 +1,8 @@
 {
   "name": "ClosureReactor",
   "version": "0.1.0",
-  "summary": "A short description of ClosureReactor.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "ClosureReactor is a non-reactive framework for MVVM design pattern to develop",
+  "description": "APReactor has a structure similar to ReactorKit, but is a non-reactive framework that uses Closure instead of RxSwift.",
   "homepage": "https://github.com/kwaiach/ClosureReactor",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
   "source_files": "ClosureReactor/Classes/**/*"
 }

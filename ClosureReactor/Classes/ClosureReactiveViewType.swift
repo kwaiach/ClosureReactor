@@ -1,23 +1,23 @@
 //
-//  APReactiveViewType.swift
-//  APMallSwift
+//  ClosureReactiveViewType.swift
+//  ClosureReactor
 //
-//  Created by amore_kwaiach on 2022/01/11.
-//  Copyright © 2022 amorepacific.com. All rights reserved.
+//  Created by kwaiach on 2022/01/11.
+//  Copyright © 2022 kwaiach. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-protocol APReactiveViewType: AnyObject, AssociatedObjectStore {
-  associatedtype Reactor: APReactiveType
+public protocol ClosureReactiveViewType: AnyObject, AssociatedObjectStore {
+  associatedtype Reactor: ClosureReactiveType
   typealias Action = Reactor.Action
   typealias Renderer = Reactor.Renderer
   var reactor: Reactor? { get set }
   func update(_ renderer: Renderer)
 }
 
-extension APReactiveViewType where Self: UIViewController {
+extension ClosureReactiveViewType where Self: UIViewController {
   var reactor: Reactor? {
     get {
       getAssociatedObject(forKey: &AssociatedKey.reactor)

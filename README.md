@@ -22,7 +22,7 @@ pod 'ClosureReactor'
 
 ## Author
 
-kwaiach, kwaiach@amorepacific.com
+kwaiach, k_waiach@naver.com
 
 ## License
 

@@ -13,7 +13,7 @@ typealias NoAction = Never
 public protocol ClosureReactiveType: AssociatedObjectStore {
   associatedtype Action
   associatedtype Renderer
-  associatedtype Storage: Mutable
+  associatedtype Storage
   
   var updateHandler: ((Renderer) -> Void)? { get set }
   var storage: Storage { get set }

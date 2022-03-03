@@ -1,5 +1,5 @@
 PODS:
-  - ClosureReactor (0.1.0)
+  - ClosureReactor (0.2.5)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ClosureReactor: 08fb0527f6608ac20b154f66cab8324275f1e795
+  ClosureReactor: 96cea4023c058642781e6ec7fb3f651864acaaec
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
-PODFILE CHECKSUM: 88922d6143f7f51a4ec2879ced574dc01f5dbdde
+PODFILE CHECKSUM: 8931d22328c9ac5590ca31ece64bd6bbef036129
 
 COCOAPODS: 1.11.2

@@ -17,7 +17,7 @@ public protocol ClosureReactiveViewType: AnyObject, AssociatedObjectStore {
   func update(_ renderer: Renderer)
 }
 
-extension ClosureReactiveViewType where Self: UIViewController {
+public extension ClosureReactiveViewType where Self: UIViewController {
   var reactor: Reactor? {
     get {
       getAssociatedObject(forKey: &AssociatedKey.reactor)
@@ -30,8 +30,11 @@ extension ClosureReactiveViewType where Self: UIViewController {
   }
   
   private func bind() {
+    print("\(#function) - 1")
+    guard reactor?.updateHandler == nil else { return }
     DispatchQueue.main.async { [weak self] in
       guard let self = self else { return }
+      print("\(#function) - 2")
       self.reactor?.updateHandler = self.update
     }
   }
